@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me Cards</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #180000;
+        }
+
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        header h1 {
+          margin: 0;
+        }
+
+        .section-cards {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            flex-grow: 1; /* Allow content to grow and fill available space */
+        }
+
+        .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #333;
+            text-transform: uppercase;
+        }
+
+        .card p {
+            line-height: 1.6;
+            color: #240000;
+            font-weight: bold;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+      <h1>Three Things About Me</h1>
+    </header>
+
+    <section class="section-cards">
+        <div class="card">
+            <h2>My Passion for Learning</h2>
+            <p>I am constantly eager to learn new things. Whether it's coding, exploring new technologies, or diving into different subjects, I believe in the power of continuous learning to grow and evolve.</p>
+        </div>
+
+        <div class="card">
+            <h2>Love for Problem Solving</h2>
+            <p>I enjoy tackling complex problems and finding creative solutions. I see challenges as opportunities to think critically and develop innovative approaches. This drive fuels my enthusiasm for projects that require analytical thinking.</p>
+        </div>
+
+        <div class="card">
+            <h2>Appreciation for Collaboration</h2>
+            <p>I value teamwork and believe that collaboration leads to better outcomes. Working with others to share ideas and perspectives enriches the learning process and fosters a supportive environment.</p>
+        </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 built with love K.P Adekanye</p>
+    </footer>
+
+</body>
+</html>
